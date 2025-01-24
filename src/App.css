@@ -2,6 +2,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100vh;
   background-color: #f8f9fa; /* Light gray base color */
   background-image: linear-gradient(45deg, #e0e0e0 25%, transparent 25%),
     linear-gradient(-45deg, #e0e0e0 25%, transparent 25%),

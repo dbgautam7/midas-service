@@ -4,11 +4,14 @@ import "./styles/main.css";
 import App from "./App.tsx";
 import { ConfigProvider } from "antd";
 import { customTheme } from "./config/antd.ts";
+import { BrowserRouter } from "react-router";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ConfigProvider theme={customTheme}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ConfigProvider>
   </StrictMode>
 );
