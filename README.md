@@ -6,7 +6,7 @@
 # Getting Started
 
 To get started, clone the repository and run the following commands:
-https://github.com/dbgautam7/midas-service.git
+git clone https://github.com/dbgautam7/midas-service.git
 
 ## Install PNPM (if not already installed)
 
