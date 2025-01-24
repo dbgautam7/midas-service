@@ -58,3 +58,8 @@ export const pageSizeOptions = [
     label: "50",
   },
 ];
+
+export const doctorOptions = [
+  { value: 1, label: "Dr. Smith" },
+  { value: 2, label: "Dr. Alex" },
+];

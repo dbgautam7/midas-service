@@ -18,6 +18,7 @@ interface IFilterProps {
 
 const Filters: React.FC<IFilterProps> = ({ data }) => {
   const [showFilter, setShowFilter] = useState<boolean>(true);
+  const [selectedDoctorId, setSelectedDoctorId] = useState<number | null>(null);
   const handleExportToExcel = () => {
     exportToExcel(data, "Patients_Data");
   };
@@ -64,6 +65,8 @@ const Filters: React.FC<IFilterProps> = ({ data }) => {
             <CustomSelect
               placeholder="Select Doctor Name"
               options={doctorOptions}
+              selectedValue={selectedDoctorId}
+              setSelectedValue={setSelectedDoctorId}
             />
           </section>
         </div>
